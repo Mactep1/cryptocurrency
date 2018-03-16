@@ -7,6 +7,8 @@ public class TxHandler {
      */
     public TxHandler(UTXOPool utxoPool) {
         // IMPLEMENT THIS
+    	UTXOPool uPool = new UTXOPool(utxoPool);
+
     }
 
     /**
@@ -20,6 +22,8 @@ public class TxHandler {
      */
     public boolean isValidTx(Transaction tx) {
         // IMPLEMENT THIS
+    	
+    	
     }
 
     /**
